@@ -2,16 +2,18 @@ I built this template with the idea of a minimal C++ project setup. Just CMake a
 
 ## How to compile and run the project:
 
-If this is the template C++ file, please copy the entire folder, rename it, and continue.
+Remember to rename this from the template :)
 
 Note: 
-    - Update any mention of "project" in the CMakeLists.txt file
-    - If the template project has a "build" folder, delete it before building.
-    - Also copy the .vscode folder between projects if you want to re-copy this again.
+- Update any mention of "project" in the CMakeLists.txt file
+- Simply ```git clone https://github.com/Alvii-1/Template-CPP.git .``` to copy the template
 
 Organization:
-    - /src: main c++ files
-    - /include: header files
+- /src: main c++ files
+- /include: header files
+
+### Immediately After Cloning
+After running git clone in your specified directory, run rm -r -fo .git to remove the template's existing git history. Then you're good to go with using the template. This way you have a fresh git history after cloning.
 
 ### Manual Way
 1. Open VS Code

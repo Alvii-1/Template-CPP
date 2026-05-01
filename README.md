@@ -5,8 +5,9 @@ I built this template with the idea of a minimal C++ project setup. Just CMake a
 Remember to rename this from the template :)
 
 Note: 
-- Update any mention of "project" in the CMakeLists.txt file
-- Simply ```git clone https://github.com/Alvii-1/Template-CPP.git .``` to copy the template
+- Update any mention of "project" in the CMakeLists.txt file for organization of your project
+- Simply use ```git clone https://github.com/Alvii-1/Template-CUDA.git . to clone``` the repository locally
+- Rebuilding the project can be done with ```cleanrun.ps1``` instead of just ```run.ps1```
 
 Organization:
 - /src: main c++ files

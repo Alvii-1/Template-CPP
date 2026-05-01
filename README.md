@@ -13,22 +13,22 @@ Organization:
 - /include: header files
 
 ### Immediately After Cloning
-After running git clone in your specified directory, run rm -r -fo .git to remove the template's existing git history. Then you're good to go with using the template. This way you have a fresh git history after cloning.
+After running git clone in your specified directory, run ```rm -r -fo .git``` to remove the template's existing git history. Then you're good to go with using the template. This way you have a fresh git history after cloning.
 
 ### Manual Way
 1. Open VS Code
-2. Click the dropdown arrow by the terminal, select "Command Prompt"
-3. Type "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools\VsDevCmd.bat" into cmd
-4. To compile code "cl main.cpp" to run it "main.exe"
+2. Click the dropdown arrow by the terminal, select ```Command Prompt```
+3. Type ```C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools\VsDevCmd.bat``` into cmd
+4. To compile code ```cl main.cpp``` to run it ```main.exe```
 
 ### CMake Way
 1. Ensure the CMakeLists.txt is properly updated with a new project name
-2. Type "cmake -S . -B build" into PS to configure the project
-3. Type "cmake --build build" into PS to build the project
-4. Type ".\build\Debug\project.exe" to run the project, make sure to change "project" to match txt
+2. Type ```cmake -S . -B build``` into PS to configure the project
+3. Type ```cmake --build build``` into PS to build the project
+4. Type ```.\build\Debug\project.exe``` to run the project, make sure to change "project" to match txt
 
 ### Powershell Function (Simplest)
-1. Type ".\run.ps1" in the terminal and it should accomplish everything from CMake
+1. Type ```.\run.ps1``` in the terminal and it should accomplish everything from CMake
 
 ### Details on .vscode/c_cpp_properties.json
 ```

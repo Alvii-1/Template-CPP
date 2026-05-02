@@ -1,6 +1,6 @@
 I built this template with the idea of a minimal C++ project setup. Just CMake and C++. Feel free to re-use for your own project, its pretty barebones by design. This is only for Windows and the MSVC compiler.
 
-## How to compile and run the project:
+## How to Compile and Run the Project:
 
 Remember to rename this from the template :)
 
